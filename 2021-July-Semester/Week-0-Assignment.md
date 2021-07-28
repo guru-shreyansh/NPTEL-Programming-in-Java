@@ -61,9 +61,9 @@ functionCheck(int a, int b)
 }
 ```
 Now, there can be two different cases,<br>
-i) **x < y** => `functionCheck(x, y)` will return 0.<br>
+i) **x < y** ➔ `functionCheck(x, y)` will return 0.<br>
 &emsp;So, `functionCheck(x, functionCheck(x, y))` = functionCheck(x, 0). And `functionCheck(x, 0)` will return `x - 0` = x as `0 ≤ x` (non-negative integer).<br>
-ii) **x >= y** => `functionCheck(x, y)` will return x - y.<br>
+ii) **x >= y** ➔ `functionCheck(x, y)` will return x - y.<br>
 &emsp;So, `functionCheck(x, functionCheck(x, y))` = functionCheck(x, x-y). And `functionCheck(x, x-y)` will return `x - (x-y)` = y as `x ≥ x-y`.<br>
 Therefore, it will always return the _minimum_ of x and y.<br>
 
@@ -151,7 +151,7 @@ void foo()
 &emsp;&emsp;❑ **b.**  int my_num = 100000;<br>
 &emsp;&emsp;❑ **c.**  int my num = 1000;<br>
 &emsp;&emsp;❑ **d.**  int $my_num = 10000;<br>
-✔️ **Answer:&emsp;**b<br>
+✔️ **Answer:&emsp;b**<br>
 ▸ **Explanation:** `int my_num = 100,000;` is invalid as it has a comma operator `,` in integer number.<br>
 `int my num = 1000;` is invalid because space is not allowed in the identifier name in C.<br>
 `int $my_num = 10000;` is invalid because the first letter of an identifier should be either a letter or an underscore.<br>
