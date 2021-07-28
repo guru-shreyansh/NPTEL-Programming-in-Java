@@ -6,7 +6,7 @@ You should use `Math.PI` constant in your program. If radius is zero or less tha
 
 ```java
 import java.util.Scanner;
-class Exercise1_1
+public class Exercise1_1
 {
     public static void main(String[] args)
     {
