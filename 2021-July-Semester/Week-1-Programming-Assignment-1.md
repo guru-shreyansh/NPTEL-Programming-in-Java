@@ -34,4 +34,5 @@ class Exercise1_1
 Use of `Math.PI` is suggested as if we use pi = 3.14, we won't get the accurate results.
 
 :heavy_plus_sign: **If you any _doubts/questions_ related to this course or any _quiz/assignment_, <br>
-&emsp;&emsp;&emsp;please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. I'll try to help at the earliest!!** :smiley:
+&emsp;&emsp;&emsp;please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. 
+I'll try to help at the earliest!!** :smiley:
