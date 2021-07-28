@@ -7,7 +7,7 @@
 
 ```java
 import java.util.Scanner;
-class Exercise1_4
+public class Exercise1_4
 {
     public static void main(String[] args)
     {
