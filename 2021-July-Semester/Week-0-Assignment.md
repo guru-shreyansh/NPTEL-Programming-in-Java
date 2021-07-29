@@ -197,7 +197,7 @@ void main()
 &emsp;&emsp;❑ **c.**  10+9+8+ ... +3+2+1<br>
 &emsp;&emsp;❑ **d.**  0<br>
 ✔️ **Answer:&emsp;C**<br>
-▸ **Explanation:** First `j` will be added to `y` and then it will be decreamented by 1 in each iteration of the `while` loop. Once j becomes 0, the while loop will break and next iteration of the for loop will start.  But since at i=1, j=0. Hence, `i < j` becomes false and the `for` loop will also terminate.<br>
+▸ **Explanation:** First `j` will be added to `y` and then it will be decremented by 1 in each iteration of the `while` loop. Once j becomes 0, the while loop will break and next iteration of the for loop will start.  But since at i=1, j=0. Hence, `i < j` becomes false and the `for` loop will also terminate.<br>
 
 ⭐ **13)** ***A function `foo(int)` is defined as follows:***<br>
 ```C
