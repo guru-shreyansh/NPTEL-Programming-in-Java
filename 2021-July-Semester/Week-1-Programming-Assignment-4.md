@@ -46,6 +46,7 @@ sum = sum + (1 * 1 * 1) = 152 + (1) = 153<br>
 copy = copy / 10 = 1 / 10 = 0<br>
 `while` loop terminates.<br>
 
+---
 :heavy_plus_sign: **If you any _doubts/questions_ related to this course or any _quiz/assignment_, <br>
 &emsp;&emsp;&emsp;please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. 
 I'll try to help at the earliest!!** :smiley:
