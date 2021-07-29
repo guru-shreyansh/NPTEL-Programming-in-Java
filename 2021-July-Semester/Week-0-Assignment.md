@@ -16,7 +16,7 @@ int main()
     int a[8] = {3, 1, 0, 5, 2, 7, 6, 4};
 }
 ```
-&emsp;&emsp;**What is the value of `a[a[a[3]]]`? Select your correct answer from the following options.**<br>
+&emsp;&emsp;***What is the value of `a[a[a[3]]]`? Select your correct answer from the following options.***<br>
 &emsp;&emsp;❑ **a.**  Program is with a compile-time error<br>
 &emsp;&emsp;❑ **b.**  Program is with a run-time error<br>
 &emsp;&emsp;❑ **c.**  NULL<br>
@@ -42,7 +42,7 @@ functionCheck(int a, int b)
     return (( a < b ) ? 0 : ( a - b ));
 }
 ```
-&emsp;&emsp;**Let `x`, `y` be any two non-negative integers. What does the function `functionCheck(x, functionCheck(x, y))` do? Select your correct answer from the following choices.**<br>
+&emsp;&emsp;***Let `x`, `y` be any two non-negative integers. What does the function `functionCheck(x, functionCheck(x, y))` do? Select your correct answer from the following choices.***<br>
 &emsp;&emsp;❑ **a.**  Maximum of x and y.<br>
 &emsp;&emsp;❑ **b.**  Positive difference of x and y.<br>
 &emsp;&emsp;❑ **c.**  Sum of x and y.<br>
@@ -79,7 +79,7 @@ int main()
     return 0;
 }
 ```
-&emsp;&emsp;**Select your correct answer from the following choices.**<br>
+&emsp;&emsp;***Select your correct answer from the following choices.***<br>
 &emsp;&emsp;❑ **a.**  40<br>
 &emsp;&emsp;❑ **b.**  400<br>
 &emsp;&emsp;❑ **c.**  440<br>
@@ -162,12 +162,12 @@ float x=12.0, y=6.0;
 int a=4, b=3;
 float z;
 ```
-&emsp;&emsp;**What is the value of z computed in each of the following assignment statements?**<br>
+&emsp;&emsp;***What is the value of z computed in each of the following assignment statements?***<br>
 &emsp;&emsp;**i. z = x / y + a / b;**<br>
 &emsp;&emsp;**ii. z = a / b * b / a * x;**<br>
 &emsp;&emsp;**iii. z = (x / y) > 1 ? x : y;**<br>
 &emsp;&emsp;**iv. z = (int) (x + b) / a % b;**<br>
-&emsp;&emsp;**Select your correct answer from the following choices.**<br>
+&emsp;&emsp;***Select your correct answer from the following choices.***<br>
 &emsp;&emsp;❑ **a.**  3.0, 0.0, 12.0, 0.0<br>
 &emsp;&emsp;❑ **b.**  0.0, 0.0, 0.0, 0.0<br>
 &emsp;&emsp;❑ **c.**  0.0, 0.0, 12.0, 0.0<br>
@@ -191,7 +191,7 @@ void main()
     printf("%d", y);
 }
 ```
-&emsp;&emsp;**What will be the output of the program? Select your option from the following.**<br>
+&emsp;&emsp;***What will be the output of the program? Select your option from the following.***<br>
 &emsp;&emsp;❑ **a.**  100<br>
 &emsp;&emsp;❑ **b.**  10×9×8× ... ×3×2×1<br>
 &emsp;&emsp;❑ **c.**  10+9+8+ ... +3+2+1<br>
@@ -214,7 +214,7 @@ int foo(int i)
     return x;
 }
 ```
-&emsp;&emsp;**What will be the output of the program? Select your option from the following.**<br>
+&emsp;&emsp;***What will be the output of the program? Select your option from the following.***<br>
 &emsp;&emsp;❑ **a.**  The program will be with compilation error<br>
 &emsp;&emsp;❑ **b.**  6×5×4×3×2×1<br>
 &emsp;&emsp;❑ **c.**  6+5+4+3+2+1<br>
