@@ -49,7 +49,7 @@ functionCheck(int a, int b)
 &emsp;&emsp;❑ **d.**  Minimum of x and y.<br>
 ✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** The above function involves use of a ternary operator.<br>
-The syntax of ternary operator is: `result = binaryCondition ? valueReturnedIfTrue : valueReturnedIfFalse;`<br>
+The syntax of a ternary operator is: `result = binaryCondition ? valueReturnedIfTrue : valueReturnedIfFalse;`<br>
 The `functionCheck` is equivalent to:
 ```C
 functionCheck(int a, int b)
