@@ -5,7 +5,7 @@
 &emsp;&emsp;❑ **b.**  Prints integer type value<br>
 &emsp;&emsp;❑ **c.**  Prints character type value<br>
 &emsp;&emsp;❑ **d.**  Prints string type value<br>
-✔️ **Answer:&emsp;b**<br>
+✔️ **Answer:&emsp;B**<br>
 ▸ **Explanation:** In C programming, `%lf` is used for `double` data-type value; `%d` is used for `int` data-type value;<br>
 `%c` is used for `char` data-type value; `%s` is used for `string` type value.
 
@@ -21,7 +21,7 @@ int main()
 &emsp;&emsp;❑ **b.**  Program is with a run-time error<br>
 &emsp;&emsp;❑ **c.**  NULL<br>
 &emsp;&emsp;❑ **d.**  4<br>
-✔️ **Answer:&emsp;d**<br>
+✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** Here, `a[3]` = 5. So, `a[a[a[3]]]` = a[a[5]]<br>
 And `a[5]` = 7. So, `a[a[5]]` = a[7]. Hence, `a[a[a[3]]]` = a[7] = 4.<br>
 
@@ -30,7 +30,7 @@ And `a[5]` = 7. So, `a[a[5]]` = a[7]. Hence, `a[a[a[3]]]` = a[7] = 4.<br>
 &emsp;&emsp;❑ **b.**  No<br>
 &emsp;&emsp;❑ **c.**  yes<br>
 &emsp;&emsp;❑ **d.**  \*p<br>
-✔️ **Answer:&emsp;a**<br>
+✔️ **Answer:&emsp;A**<br>
 ▸ **Explanation:** In C, an valid identifier can have letters (both uppercase and lowercase letters), digits and underscores only and the first letter of an identifier should be either a letter or an underscore. Hence, `21Guns` is an invalid identifier as it starts with a numeric digit.<br>
 `No`, `no`, `NO`, `_No`, `yes`, `Yes`, `YES`, `_yes`, all are valid identifiers.<br>
 The `*` symbol in `*p` indicates that `p` is a pointer.
@@ -47,7 +47,7 @@ functionCheck(int a, int b)
 &emsp;&emsp;❑ **b.**  Positive difference of x and y.<br>
 &emsp;&emsp;❑ **c.**  Sum of x and y.<br>
 &emsp;&emsp;❑ **d.**  Minimum of x and y.<br>
-✔️ **Answer:&emsp;d**<br>
+✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** The above function involves use of a ternary operator.<br>
 The syntax of ternary operator is: `result = binaryCondition ? valueReturnedIfTrue : valueReturnedIfFalse;`<br>
 The `functionCheck` is equivalent to:
@@ -84,7 +84,7 @@ int main()
 &emsp;&emsp;❑ **b.**  400<br>
 &emsp;&emsp;❑ **c.**  440<br>
 &emsp;&emsp;❑ **d.**  0<br>
-✔️ **Answer:&emsp;c**<br>
+✔️ **Answer:&emsp;C**<br>
 ▸ **Explanation:** The preprocessor double hash (`##`) operator concatenates the variable values.<br>
 So, `myfunc(1, 1)` will return `11` and `myfunc(v, 1)` will return `v1`.
 Hence, `myfunc(1, 1) * myfunc(v, 1)` will evaluate to `11 * v1` = 11 * 40 = 440.
@@ -94,7 +94,7 @@ Hence, `myfunc(1, 1) * myfunc(v, 1)` will evaluate to `11 * v1` = 11 * 40 = 440.
 &emsp;&emsp;❑ **b.**  5 bytes.<br>
 &emsp;&emsp;❑ **c.**  8 bytes.<br>
 &emsp;&emsp;❑ **d.**  9 bytes.<br>
-✔️ **Answer:&emsp;d**<br>
+✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** The string (character array) has total 9 characters: `J`,`a`,`v`,`a`,`j`,`u`,`l`,`y`,`\0` ('\0' is string terminator). So, total 9 bytes are required to store the given string as `char` takes 1 byte to store a single character.<br>
 
 ⭐ **7)** ***Which of the following operator has the lowest priority?***<br>
@@ -102,7 +102,7 @@ Hence, `myfunc(1, 1) * myfunc(v, 1)` will evaluate to `11 * v1` = 11 * 40 = 440.
 &emsp;&emsp;❑ **b.**  +<br>
 &emsp;&emsp;❑ **c.**  %<br>
 &emsp;&emsp;❑ **d.**  ||<br>
-✔️ **Answer:&emsp;d**<br>
+✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** The increasing order of precedence of operators is: `||` < `+` < `%` < `++`<br>
 
 ⭐ **8)** ***In the declaration given below, what is `array`?***<br>
@@ -113,7 +113,7 @@ Hence, `myfunc(1, 1) * myfunc(v, 1)` will evaluate to `11 * v1` = 11 * 40 = 440.
 &emsp;&emsp;❑ **b.**  It is a literal<br>
 &emsp;&emsp;❑ **c.**  It is a operator<br>
 &emsp;&emsp;❑ **d.**  It is a pointer<br>
-✔️ **Answer:&emsp;d**<br>
+✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** In the above, `array` is a pointer. We can access the different indices of the array through the pointer. Below is an illustration:<br>
 ```C
     int array[20];
@@ -143,7 +143,7 @@ void foo()
 &emsp;&emsp;❑ **b.**  It will give compile-time error<br>
 &emsp;&emsp;❑ **c.**  2 1 2<br>
 &emsp;&emsp;❑ **d.**  Depends on the compiler<br>
-✔️ **Answer:&emsp;a**<br>
+✔️ **Answer:&emsp;A**<br>
 ▸ **Explanation:** First, the `printf` statement will be exccuted in the `main` function which will print `1 ` and then `foo` method is called which prints `2 `.<br>
 
 ⭐ **10)** ***Which of the following is a valid C expression?***<br>
@@ -151,7 +151,7 @@ void foo()
 &emsp;&emsp;❑ **b.**  int my_num = 100000;<br>
 &emsp;&emsp;❑ **c.**  int my num = 1000;<br>
 &emsp;&emsp;❑ **d.**  int $my_num = 10000;<br>
-✔️ **Answer:&emsp;b**<br>
+✔️ **Answer:&emsp;B**<br>
 ▸ **Explanation:** `int my_num = 100,000;` is invalid as it has a comma operator `,` in integer number.<br>
 `int my num = 1000;` is invalid because space is not allowed in the identifier name in C.<br>
 `int $my_num = 10000;` is invalid because the first letter of an identifier should be either a letter or an underscore.<br>
@@ -172,7 +172,7 @@ float z;
 &emsp;&emsp;❑ **b.**  0.0, 0.0, 0.0, 0.0<br>
 &emsp;&emsp;❑ **c.**  0.0, 0.0, 12.0, 0.0<br>
 &emsp;&emsp;❑ **d.**  3.0, 0.0, 12.0, 1.0<br>
-✔️ **Answer:&emsp;a**<br>
+✔️ **Answer:&emsp;A**<br>
 ▸ **Explanation:** z => `(x / y) + (a / b)` = (12.0/6.0) + (4/3) = 2.0 + 1 = `3.0`<br>
 z => `(((a / b) * b) / a) * x` = (((4 / 3) * 3) / 4) * 12.0 = ((1 * 3) / 4) * 12.0 = (3 / 4) * 12.0 = 0 * 12.0 = `0.0`<br>
 z => `(x / y) > 1 ? x : y` = ((12.0/6.0) > 1) : x : y = (2.0 > 1) : x : y = (true) : x : y = x = `12.0`<br>
@@ -196,7 +196,7 @@ void main()
 &emsp;&emsp;❑ **b.**  10×9×8× ... ×3×2×1<br>
 &emsp;&emsp;❑ **c.**  10+9+8+ ... +3+2+1<br>
 &emsp;&emsp;❑ **d.**  0<br>
-✔️ **Answer:&emsp;c**<br>
+✔️ **Answer:&emsp;C**<br>
 ▸ **Explanation:** First `j` will be added to `y` and then it will be decreamented by 1 in each iteration of the `while` loop. Once j becomes 0, the while loop will break and next iteration of the for loop will start.  But since at i=1, j=0. Hence, `i < j` becomes false and the `for` loop will also terminate.<br>
 
 ⭐ **13)** ***A function `foo(int)` is defined as follows:***<br>
@@ -219,7 +219,7 @@ int foo(int i)
 &emsp;&emsp;❑ **b.**  6×5×4×3×2×1<br>
 &emsp;&emsp;❑ **c.**  6+5+4+3+2+1<br>
 &emsp;&emsp;❑ **d.**  The program will be with an infinite loop and hence not return any value<br>
-✔️ **Answer:&emsp;b**<br>
+✔️ **Answer:&emsp;B**<br>
 ▸ **Explanation:** When i = 0, `foo(0)` will return `x` as the while loop will never be excecuted because `while(0)` is equivalent to while(_false_) in C.<br>
 For any other value of x (i.e x != 0), the while loop will always excecute and it will break once j = 7. The result will be equal to `7!`.<br>
 
@@ -228,7 +228,7 @@ For any other value of x (i.e x != 0), the while loop will always excecute and i
 &emsp;&emsp;❑ **b.**  C is an object-oriented programming language<br>
 &emsp;&emsp;❑ **c.**  C++ is an object-oriented programming language<br>
 &emsp;&emsp;❑ **d.**  C# is an object-oriented programming language<br>
-✔️ **Answer:&emsp;b**<br>
+✔️ **Answer:&emsp;B**<br>
 ▸ **Explanation:** `Java`, `C++`, `C#`, `Python`, `R`, `PHP`, `Visual Basic.NET`, `JavaScript`, `Ruby`, `Perl`, `Object Pascal`, etc. are examples of _Object Oriented Programming_ languages.<br>
 While `C` programming is a general-purpose, procedural, imperative computer programming language.<br>
 
@@ -238,7 +238,7 @@ libraries?***<br>
 &emsp;&emsp;❑ **b.**  Running multiple functions concurrently<br>
 &emsp;&emsp;❑ **c.**  Recursive execution of a function<br>
 &emsp;&emsp;❑ **d.**  Working with abstract data types<br>
-✔️ **Answer:&emsp;b**<br>
+✔️ **Answer:&emsp;B**<br>
 ▸ **Explanation:** In C, dynamic memory allocation can be done using `malloc()`, `calloc()`, `realloc()`, and `free()` functions.<br>
 Working with abstract data types and recursive execution of a function is also allowed in C but concurrent excecution of multiple functions is not allowed.<br>
 
