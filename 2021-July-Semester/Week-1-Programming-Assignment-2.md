@@ -47,6 +47,7 @@ The syntax of ternary operator is: `result = binaryCondition ? valueReturnedIfTr
 result = (x > y) ? (x > z ? x : y) : (y > z ? y : z);
 ```
 
+---
 :heavy_plus_sign: **If you any _doubts/questions_ related to this course or any _quiz/assignment_, <br>
 &emsp;&emsp;&emsp;please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. 
 I'll try to help at the earliest!!** :smiley:
