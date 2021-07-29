@@ -14,10 +14,10 @@
 &emsp;&emsp;❑ **c.**  int [][] b = new int[10];<br>
 &emsp;&emsp;❑ **d.**  int [][] b = {{7, 2, 4, 6} , {9, 8, 5}};<br>
 ✔️ **Answer:&emsp;C**<br>
-▸ **Explanation:**<br> `int [] arrayName = new int[size];` is most common way to declare an array.<br>
+▸ **Explanation:**`int [] arrayName = new int[size];` is most common way to declare an array.<br>
 `int [] b;` is also correct as it declares the array without defining the size of the array.<br>
-Option c is an incorrect way as `int[10]` is for declaration of an 1-D array but on the other side we have a 2-D array `int [][] b`. The correct way of declaration would be: `int [][] b = new int[10][];` or `int [][] b = new int[size][10];` where `size` is the number of rows in the 2-D array of our choice.
-`int [][] b = {{7, 2, 4, 6} , {9, 8, 5}};` is also correct. It declares a 2-D array and also initializes it. The compiler gets the size of the array by counting the  number of elements in the array.
+`int [][] b = new int[10];` is an incorrect way as `int[10]` is for declaration of a 1-D array but on the other side we have a 2-D array `int [][] b`. The correct way of declaration would be: `int [][] b = new int[10][];` or `int [][] b = new int[size][10];` where `size` is the number of rows in the 2-D array of our choice.<br>
+`int [][] b = {{7, 2, 4, 6} , {9, 8, 5}};` is also correct. It declares a 2-D array and also initializes it. The compiler gets the size of the array by counting the number of elements in the array.<br>
 
 ⭐ **3)** ***When you compile a program written in the Java programming language, the compiler converts the human-readable source file into platform-independent code that a `Java Virtual Machine` can understand. What is this platform-independent code called?***<br>
 &emsp;&emsp;❑ **a.**  Source code<br>
@@ -35,10 +35,10 @@ Option c is an incorrect way as `int[10]` is for declaration of an 1-D array but
 ✔️ **Answer:&emsp;A**<br>
 ▸ **Explanation:** Through the string array passed as parameter to the `main` method, the arguments passed from the console can be received in the java program and it can be used as an input.<br>
 We can name the string array with any valid name, like: `input`, `var123`, ... etc.<br>
-Any number of arguments can be passed from the command like.
+Any number of arguments can be passed from the command line like:<br>
 To compile> `javac className.java`<br>
 To run> `java A B C 12345 xyz`<br>
-To print the content of the `args` array we can traverse the arrat as:<br>
+To print the content of the `args` array, we can traverse the array as:<br>
 ```java
 for (int i=0; i<args.length; i++)
     System.out.println(args[i]);
@@ -64,7 +64,7 @@ public class Question
 &emsp;&emsp;❑ **c.**  4<br>
 &emsp;&emsp;❑ **d.**  1<br>
 ✔️ **Answer:&emsp;A**<br>
-▸ **Explanation:** At b = 2, `b++ + b` = 2 + 3. After b++, b becomes 3. And at the end of the first iteration of th for loop,with `b += 2`, b becomes 3 + 2 = 5. As 5 is not less than 3, the `for` loop terminates.<br>
+▸ **Explanation:** At b = 2, `(b++ + b)` = 2 + 3. After b++, b becomes 3. And at the end of the first iteration of the for loop, with `b += 2`, b becomes 3 + 2 = 5. As 5 is not less than 3, the `for` loop terminates.<br>
 
 ⭐ **6)** ***Following is a piece of code where some parts of a statement is missing:***<br>
 ```java
@@ -77,15 +77,15 @@ public class Question3
     }
 }
 ```
-&emsp;&emsp;***In the following, some options are given. You have to choose the correct option for the argument in `System.outprint()` function to print the second and the last characters in the array `nptel`.***
+&emsp;&emsp;***In the following, some options are given. You have to choose the correct option for the argument in `System.outprint()` function to print the second and the last characters in the array `nptel`.***<br>
 &emsp;&emsp;❑ **a.**  nptel[nptel.length-1] + nptel[1]<br>
 &emsp;&emsp;❑ **b.**  nptel[1] + nptel[nptel.length-1]<br>
 &emsp;&emsp;❑ **c.**  "" + nptel[1] + nptel[nptel.length-1]<br>
 &emsp;&emsp;❑ **d.**  "" + nptel[nptel.length-1] + nptel[1]<br>
-✔️ **Answer:&emsp;**C<br>
+✔️ **Answer:&emsp;C**<br>
 ▸ **Explanation:** `nptel[nptel.length-1] + nptel[1]` will evaluate to 76 + 65 = 141 as the ASCII value of `L` is 76 and `A` is 65.<br>
 `nptel[1] + nptel[nptel.length-1]` will evaluate to 65 + 76 = 141 as the ASCII value of `A` is 65 and `L` is 76.<br>
-`"" + nptel[1] + nptel[nptel.length-1]` is correct as the `"" + ` part will convert the output to string and it prints `"" + A + L` i.e `AL`.<br>
+`"" + nptel[1] + nptel[nptel.length-1]` is correct as the `"" + ` part will convert the output to a string and it is equivalent to `"" + A + L` i.e `AL`.<br>
 `"" + nptel[nptel.length-1] + nptel[1]` prints `LA` but it's not the desired result.<br>
 
 ⭐ **7)** ***What is the output of this program?***<br>
@@ -112,7 +112,7 @@ public class Question
 &emsp;&emsp;❑ **c.**  JDK<br>
 &emsp;&emsp;❑ **d.**  JDB<br>
 ✔️ **Answer:&emsp;D**<br>
-▸ **Explanation:** Java Debugger (`JDB`) is used to find and fix bugs in the java program.<br>
+▸ **Explanation:** Java Debugger (`JDB`) is used to find and fix bugs in the Java program.<br>
 
 ⭐ **9)** ***Which of the following is/are non-primitive data type(s) in Java?***<br>
 &emsp;&emsp;❑ **a.**  int<br>
