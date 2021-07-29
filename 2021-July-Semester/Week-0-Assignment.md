@@ -241,3 +241,8 @@ libraries?***<br>
 ✔️ **Answer:&emsp;b**<br>
 ▸ **Explanation:** In C, dynamic memory allocation can be done using `malloc()`, `calloc()`, `realloc()`, and `free()` functions.<br>
 Working with abstract data types and recursive execution of a function is also allowed in C but concurrent excecution of multiple functions is not allowed.<br>
+
+---
+<p align="center">:heavy_plus_sign: <b>If you any <i>doubts/questions</i> related to this course or any <i>quiz/assignment</i>, <br>
+please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. 
+I'll try to help at the earliest!!</b> :smiley:</p>
