@@ -1,4 +1,4 @@
-## This section includes all the `Programming` questions of this with _Solutions_
+## This section includes all the `Programming` questions of this course with _Solutions_
 
 <table border=2.5>
 <tr>
