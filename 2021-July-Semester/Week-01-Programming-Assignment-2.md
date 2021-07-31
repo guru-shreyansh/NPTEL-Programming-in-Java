@@ -22,7 +22,7 @@ public class Exercise1_2
             else            // y <= x < z
                 result = z;
         }
-        else                // y > x
+        else                // x < y
         {
             if (z <= y)     // (x , z) <= y
                 result = y;
