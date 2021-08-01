@@ -7,7 +7,7 @@ public class Main
     public static void main(String args[])
     {
         char a = '8';
-        int b=010;
+        int b = 010;
         System.out.println(a+b);
     }
 }
@@ -17,8 +17,8 @@ public class Main
 &emsp;&emsp;❑ **c.**  64<br>
 &emsp;&emsp;❑ **d.**  810<br>
 ✔️ **Answer:&emsp;C**<br>
-▸ **Explanation:** Whenever we perform `+` operation on `char` data-types, the resultant value is based on the addition of the respective values.<br>
-The ASCII value of '8' is 56. In Java, any number prefixed with a `0` is considered octal. So, `010` is an octal number whose decimal value is 0\*8² + 1\*8¹ + 0\*8⁰ = 0 + 8 + 0 = 8.<br>
+▸ **Explanation:** Whenever we perform `+` operation on `char` data-types, the resultant value is based on the addition of the respective _ASCII_ values.<br>
+The ASCII value of '8' is 56. In Java, any number prefixed with a `0` is considered _octal_. So, `010` is an octal number whose decimal value is 0\*8² + 1\*8¹ + 0\*8⁰ = 0 + 8 + 0 = 8.<br>
 Hence, `'8' + 010` evaluates to 56 + 8 = 64.<br>
 
 ⭐ **2)** ***Which of the following is generate `API` documentation in HTML format from Java source code?***<br>
@@ -50,11 +50,11 @@ public class Main
 &emsp;&emsp;❑ **d.**  jannpteljava<br>
 ✔️ **Answer:&emsp;B**<br>
 ▸ **Explanation:** The signature of `System`'s class arraycopy method is: `arraycopy(Object src, int srcPos, Object dest, int destPos, int length)`. Where,<br>
-	src - source array you want to copy<br>
-	srcPos - starting position (index) in the source array<br>
-	dest - destination array where elements will be copied from the source<br>
-	destPos - starting position (index) in the destination array<br>
-	length - number of elements to copy<br>
+	_src_ - source array you want to copy<br>
+	_srcPos_ - starting position (index) in the source array<br>
+	_dest_ - destination array where elements will be copied from the source<br>
+	_destPos_ - starting position (index) in the destination array<br>
+	_length_ - number of elements to copy<br>
     The `copyTo` array after copying will be: `[n, p, t, e, l, j, a, v, a]`.<br>
 
 ⭐ **4)** ***What will happen during the execution of the following code for the command line input?***<br>
@@ -68,21 +68,21 @@ public class Question
     }
 }
 ```
-***Input:***
+***Input:***<br>
 &emsp;&emsp;**A: "jan java nptel"**<br>
-&emsp;&emsp;**A: 1 2 3**<br>
+&emsp;&emsp;**B: 1 2 3**<br>
 &emsp;&emsp;❑ **a.**  A: jannptel<br>
-&emsp;&emsp;&emsp;javanptel
-&emsp;&emsp;&emsp;nptelnptel
+&emsp;&emsp;&emsp;&emsp;&emsp;javanptel<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;nptelnptel<br>
 &emsp;&emsp;❑ **b.**  A: jan java nptel jan java nptel<br>
 &emsp;&emsp;❑ **c.**  B: 11<br>
-&emsp;&emsp;&emsp;21
-&emsp;&emsp;&emsp;31
+&emsp;&emsp;&emsp;&emsp;&emsp;21<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;31<br>
 &emsp;&emsp;❑ **d.**  B: 1 2 3 1<br>
-&emsp;&emsp;***Consider the following input on command line and select the options with the correct output(s).***
+&emsp;&emsp;***Consider the following input on command line and select the options with the correct output(s).***<br>
 ✔️ **Answer:&emsp;B, C**<br>
 ▸ **Explanation:** For A, `args = {"jan java nptel"};` For B, `args = {"1", "2", "3"};`<br>
-The `forEach` loop iterates all the strings of the array one by one and args[0] are "jan" and "1" respectively.<br>
+The `forEach` loop iterates over all the strings of the array one by one and args[0] is "jan" and "1" respectively.<br>
 So, the above program will print all the strings of args array concatenated with args[0] in new lines.<br>
 Correct output of command line argument `jan java nptel` will be:<br>
 ```java
@@ -133,7 +133,7 @@ public class Question
 	}
 }
 ```
-&emsp;&emsp;***What will be the output of the above program?***
+&emsp;&emsp;***What will be the output of the above program?***<br>
 &emsp;&emsp;❑ **a.**  0<br>
 &emsp;&emsp;❑ **b.**  1<br>
 &emsp;&emsp;❑ **c.**  false<br>
@@ -148,8 +148,8 @@ program?***<br>
 &emsp;&emsp;❑ **c.**  Scanner class can be used by passing the predefined object System.in<br>
 &emsp;&emsp;❑ **d.**  Once the execution starts, there is no way to provide user input.<br>
 ✔️ **Answer:&emsp;C**<br>
-▸ **Explanation:** We can take the input from the user during the execution of a program using the `Scanner` or the `StringBuilder` class.<br>
-Through command line we can only provide the user input before the excecution of the program.<br>
+▸ **Explanation:** We can take the input from the user during the execution of a program using the `Scanner` or the `BufferedReader` class.<br>
+Through the command line we can only provide the user input _before_ the excecution of the program.<br>
 
 ⭐ **10)** ***What is the output of the following program?***<br>
 ```java
@@ -170,7 +170,7 @@ public class Question
 &emsp;&emsp;❑ **d.**  17<br>
 ✔️ **Answer:&emsp;D**<br>
 ▸ **Explanation:** `i++ % 2` evaluates to 10 % 2 = 0 and then increments the value of `i` by 1 due to the post-increment operator.<br>
-Now, i=11, `++i % 7` evaluates to 12 % 7 = 5 as at first the value of `i` get incremented by 1 due to the pre-increment operator and then the modulo operation is performed.<br>
+Now, i=11, `++i % 7` evaluates to 12 % 7 = 5 as at first, the value of `i` get incremented by 1 due to the pre-increment operator and then the modulo operation is performed.<br>
 
 ---
 <p align="center">:heavy_plus_sign: <b>If you any <i>doubts/questions</i> related to this course or any <i>quiz/assignment</i>, <br>
