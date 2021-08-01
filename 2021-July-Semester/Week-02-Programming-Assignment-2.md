@@ -1,6 +1,6 @@
-## :computer: Week `2` Programming Assignment 1
+## :computer: Week `2` Programming Assignment 2
 
-:white_check_mark: **Exercise 2.1)**<br>
+:white_check_mark: **Exercise 2.2)**<br>
 ***Complete the code segment to call the method `print()` of class given class `Printer` to print the following.***
 ```
 --------------------------------
