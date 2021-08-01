@@ -45,6 +45,7 @@ public class Question21
 To create an object of `Student`, specify the class name, followed by the object name, and use the keyword `new`.<br>
 To call a method in Java, write the method's name followed by two parentheses `()` and a semicolon `;`.
 
+---
 :heavy_plus_sign: **If you any _doubts/questions_ related to this course or any _quiz/assignment_, <br>
 &emsp;&emsp;&emsp;please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. 
 I'll try to help at the earliest!!** :smiley:
