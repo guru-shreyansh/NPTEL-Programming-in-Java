@@ -42,6 +42,7 @@ public class Question2
 ▸ **Explanation:** There are 3 types of constructors in Java: `Default`, `No-Argument` and `Parameterized`.<br>
 The first `print()` method in class `Printer` is a `No-Argument` constructor but the second `print()` method in class `Printer` is a `Parameterized` constructor which takes a string as input and prints that string.
 
+---
 :heavy_plus_sign: **If you any _doubts/questions_ related to this course or any _quiz/assignment_, <br>
 &emsp;&emsp;&emsp;please use the <a href="https://github.com/guru-shreyansh/NPTEL-Programming-in-Java/discussions"><i>Discussion Section</i></a>. 
 I'll try to help at the earliest!!** :smiley:
