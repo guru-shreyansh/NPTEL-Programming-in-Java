@@ -1,6 +1,6 @@
 ## :computer: Week `2` Programming Assignment 1
 
-:white_check_mark: **Exercise 2.1)**
+:white_check_mark: **Exercise 2.1)**<br>
 ***Complete the code segment to call the method `print()` of class `Student` first and then call `print()` method of class `School`.***
 
 ```java
