@@ -82,7 +82,7 @@ public class Question
 &emsp;&emsp;***Consider the following input on command line and select the options with the correct output(s).***<br>
 ✔️ **Answer:&emsp;B, C**<br>
 ▸ **Explanation:** For A, `args = {"jan java nptel"};` For B, `args = {"1", "2", "3"};`<br>
-The `forEach` loop iterates over all the strings of the array one by one and args[0] is "jan" and "1" respectively.<br>
+The `forEach` loop iterates over all the strings of the array one by one and args[0] is "jan java nptel" and "1" respectively.<br>
 So, the above program will print all the strings of args array concatenated with args[0] in new lines.<br>
 Correct output of command line argument `jan java nptel` will be:<br>
 ```java
