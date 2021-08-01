@@ -117,31 +117,60 @@ Correct output of command line argument `1 2 3` will be:<br>
 &emsp;&emsp;❑ **c.**  Foo obj = new Foo();<br>
 &emsp;&emsp;❑ **d.**  new Foo obj;<br>
 ✔️ **Answer:&emsp;C**<br>
-▸ **Explanation:**<br>
+▸ **Explanation:** There are three steps when creating an object from a class −<br>
+- [x] **Declaration** − A variable declaration with a variable name with an object type.<br>
+- [x] **Instantiation** − The 'new' keyword is used to create the object.<br>
+- [x] **Initialization** − The 'new' keyword is followed by a call to a constructor. This call initializes the new object.<br>
 
-⭐ **8)** *** ***<br>
-&emsp;&emsp;❑ **a.**  <br>
-&emsp;&emsp;❑ **b.**  <br>
-&emsp;&emsp;❑ **c.**  <br>
-&emsp;&emsp;❑ **d.**  <br>
-✔️ **Answer:&emsp;**<br>
-▸ **Explanation:**<br>
+⭐ **8)** ***Following is a program given for this question.***<br>
+```java
+public class Question
+{
+	public static void main(String[] args)
+	{
+		boolean m=Integer.valueOf(0).equals(Long.valueOf(1));
+		System.out.println(m);
+	}
+}
+```
+&emsp;&emsp;***What will be the output of the above program?***
+&emsp;&emsp;❑ **a.**  0<br>
+&emsp;&emsp;❑ **b.**  1<br>
+&emsp;&emsp;❑ **c.**  false<br>
+&emsp;&emsp;❑ **d.**  true<br>
+✔️ **Answer:&emsp;C**<br>
+▸ **Explanation:** The above checks if 0 == 1? Since, 0 != 1, it returns `false`.<br>
 
-⭐ **9)** *** ***<br>
-&emsp;&emsp;❑ **a.**  <br>
-&emsp;&emsp;❑ **b.**  <br>
-&emsp;&emsp;❑ **c.**  <br>
-&emsp;&emsp;❑ **d.**  <br>
-✔️ **Answer:&emsp;**<br>
-▸ **Explanation:**<br>
+⭐ **9)** ***Which of the following can be used to take input from user during the execution of a
+program?***<br>
+&emsp;&emsp;❑ **a.**  Using the string array provided as a parameter to the main method.<br>
+&emsp;&emsp;❑ **b.**  getText() method can be used to get user input from the command line.<br>
+&emsp;&emsp;❑ **c.**  Scanner class can be used by passing the predefined object System.in<br>
+&emsp;&emsp;❑ **d.**  Once the execution starts, there is no way to provide user input.<br>
+✔️ **Answer:&emsp;C**<br>
+▸ **Explanation:** We can take the input from the user during the execution of a program using the `Scanner` or the `StringBuilder` class.<br>
+Through command line we can only provide the user input before the excecution of the program.<br>
 
-⭐ **10)** *** ***<br>
-&emsp;&emsp;❑ **a.**  <br>
-&emsp;&emsp;❑ **b.**  <br>
-&emsp;&emsp;❑ **c.**  <br>
-&emsp;&emsp;❑ **d.**  <br>
-✔️ **Answer:&emsp;**<br>
-▸ **Explanation:**<br>
+⭐ **10)** ***What is the output of the following program?***<br>
+```java
+public class Question
+{
+	public static void main(String[] args)
+	{
+		int i = 10;
+		int n = i++%2;
+		int m = ++i%7;
+		System.out.println(i+n+m);
+	}
+}
+```
+&emsp;&emsp;❑ **a.**  14<br>
+&emsp;&emsp;❑ **b.**  12<br>
+&emsp;&emsp;❑ **c.**  15<br>
+&emsp;&emsp;❑ **d.**  17<br>
+✔️ **Answer:&emsp;D**<br>
+▸ **Explanation:** `i++ % 2` evaluates to 10 % 2 = 0 and then increments the value of `i` by 1 due to the post-increment operator.<br>
+Now, i=11, `++i % 7` evaluates to 12 % 7 = 5 as at first the value of `i` get incremented by 1 due to the pre-increment operator and then the modulo operation is performed.<br>
 
 ---
 <p align="center">:heavy_plus_sign: <b>If you any <i>doubts/questions</i> related to this course or any <i>quiz/assignment</i>, <br>
